@@ -1,0 +1,15 @@
+{
+  "services": [{
+    "git": "https://github.com/JensMeire/example1.git",
+    "name": "website-service",
+    "path": "/websiteexample",
+    "isStatic": true,
+    "entryPoint": "index.html"
+  }, {
+    "git": "https://github.com/JensMeire/example2.git",
+    "name": "backend-service",
+    "path": "/api",
+    "isStatic": false,
+    "entryPoint": "index.js"
+  }]
+}
