@@ -11,7 +11,6 @@ config.services.forEach(service => {
         shell.cd(service.name);
         shell.exec('git pull')
         shell.cd("..");
-        return;
     } else {
         shell.exec(`git clone ${service.git} ${service.name}`)
     }
